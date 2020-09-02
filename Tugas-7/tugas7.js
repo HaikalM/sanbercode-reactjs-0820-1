@@ -48,9 +48,15 @@ class Ape extends Animal{
 console.log("\nOutput soal 1 release - 1")
 
 var sungokong = new Ape("kera sakti")
+console.log("Ape name : " + sungokong.name)
+console.log("Ape legs : " + sungokong.legs)
+console.log("Ape Cold Blooded : " + sungokong.cold_blooded)
 sungokong.yell()
 
 var kodok = new Frog("buduk")
+console.log("\nFrog name : " + kodok.name)
+console.log("Frog legs : " + kodok.legs)
+console.log("Frog Cold Blooded : " + kodok.cold_blooded)
 kodok.jump()
 
 
